@@ -1,0 +1,16 @@
+{
+  "name": "Renz Malabanan Siphoning",
+  "short_name": "Renz Malabanan",
+  "description": "Septic tank siphoning, sipsip pozo negro, declogging, and plumbing in Trece Martires, Cavite.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e8f7ff",
+  "theme_color": "#0284c7",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
