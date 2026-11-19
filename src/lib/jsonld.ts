@@ -31,19 +31,6 @@ export function buildJsonLd() {
         logo: { '@id': logoId },
         description: SITE.description,
         currenciesAccepted: 'PHP',
-        hasMap: SITE.mapLink,
-        geo: {
-          '@type': 'GeoCoordinates',
-          latitude: SITE.latitude,
-          longitude: SITE.longitude,
-        },
-        address: {
-          '@type': 'PostalAddress',
-          streetAddress: 'Golden Horizon, Hugo Perez',
-          addressLocality: 'Trece Martires',
-          postalCode: '4109',
-          addressCountry: 'PH',
-        },
         sameAs: [SITE.facebookUrl],
         areaServed: [
           { '@type': 'City', name: 'Trece Martires' },

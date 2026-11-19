@@ -44,7 +44,7 @@ export const faqs: FaqItem[] = [
   {
     question: 'May Malabanan service ba kayo malapit sa area namin?',
     answer:
-      'We are located at Golden Horizon, Hugo Perez, Trece Martires. Please contact us with your city or municipality so we can confirm service availability for your location. Do not assume coverage until it is confirmed.',
+      'Please contact us with your city or municipality so we can confirm service availability for your location. Do not assume coverage until it is confirmed.',
   },
   {
     question: 'Pwede bang magpa-quotation muna?',

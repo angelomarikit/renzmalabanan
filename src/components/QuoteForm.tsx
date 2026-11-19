@@ -85,13 +85,6 @@ export function QuoteForm() {
                 </a>
               </p>
               <p>
-                <span className="block text-xs font-bold uppercase tracking-wider text-slate-500">Location</span>
-                <a className="font-extrabold text-ink hover:underline" href={SITE.mapLink} target="_blank" rel="noreferrer">
-                  {SITE.locationArea}
-                </a>
-                <span className="mt-1 block text-sm leading-relaxed text-slate-600">{SITE.locationAddress}</span>
-              </p>
-              <p>
                 <span className="block text-xs font-bold uppercase tracking-wider text-slate-500">Facebook</span>
                 <a className="font-extrabold text-[#1877F2] hover:underline" href={SITE.facebookUrl} target="_blank" rel="noreferrer">
                   Visit our Facebook page
@@ -222,25 +215,6 @@ export function QuoteForm() {
               Call {SITE.phoneDisplay}
             </a>
           </form>
-        </div>
-        <div className="mt-6 overflow-hidden rounded-3xl border border-sky-100 bg-white shadow-sm">
-          <div className="flex flex-col gap-2 px-5 py-4 sm:flex-row sm:items-end sm:justify-between sm:px-6">
-            <div>
-              <p className="text-[10px] font-extrabold uppercase tracking-[0.14em] text-citrus sm:text-xs">Find us</p>
-              <h3 className="mt-1 text-lg font-extrabold text-ink sm:text-xl">Our location in {SITE.locationArea}</h3>
-            </div>
-            <a className="text-sm font-bold text-ocean hover:underline" href={SITE.mapLink} target="_blank" rel="noreferrer">
-              Open in Google Maps
-            </a>
-          </div>
-          <iframe
-            title="Renz Malabanan Siphoning location in Cavite"
-            src={SITE.mapEmbedUrl}
-            className="h-72 w-full border-0 sm:h-96"
-            loading="lazy"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          />
         </div>
       </Container>
     </Section>

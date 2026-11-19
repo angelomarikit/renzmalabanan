@@ -30,9 +30,6 @@ export function Footer() {
           <a className="mt-2 block break-all text-sm hover:underline" href={`mailto:${SITE.email}`}>
             {SITE.email}
           </a>
-          <a className="mt-2 block text-sm hover:underline" href={SITE.mapLink} target="_blank" rel="noreferrer">
-            {SITE.locationAddress}
-          </a>
           <a className="mt-2 block text-sm hover:underline" href={SITE.facebookUrl} target="_blank" rel="noreferrer">
             Facebook
           </a>

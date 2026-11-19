@@ -18,8 +18,7 @@ export function About() {
           <p className="mt-4 text-[15px] leading-relaxed text-slate-600 text-pretty sm:text-base">
             Whether you need siphoning, sipsip pozo negro, septic tank cleaning, declogging, drainage cleaning,
             plumbing repair, grease trap cleaning, STP cleaning, or septic tank construction, we start with the actual
-            condition of the property and recommend the work that fits. We are based at Golden Horizon, Hugo Perez,
-            Trece Martires, Cavite.
+            condition of the property and recommend the work that fits.
           </p>
         </div>
         <div className="rounded-[32px] border border-sky-100 bg-white p-4 shadow-[0_16px_40px_rgba(2,132,199,0.12)] sm:p-6">
